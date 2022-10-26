@@ -1,0 +1,17 @@
+Lab 2
+In your terminal,cd into the directory "Terraform"and run command 
+"git pull https://github.com/awscloudessentials/Terraform.git" to pull the Lab2.txt file into your local machine
+Open the  Lab2.txt file in VScode editor and follow instructions to finish the lab.
+
+In your terraform directory, create a file called 'first.tf'
+Copy and paste the code below inside the file
+
+On your command line,navigate to the terraform directory and run the command 'terraform init'
+Run 'terraform plan', view the resources that will be created.
+Run 'terraform apply' and enter yes
+Run 'terraform show'
+Send screenshot
+Open the newly created file on your text editor and screenshot
+Run 'terraform destroy'
+
+Edit the Lab2.txt file in VSCode editor with any extra steps you took, save and push to your personal terraform remote repo.
