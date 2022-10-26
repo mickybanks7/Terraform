@@ -7,7 +7,7 @@ In your terraform directory, create a file called 'first.tf'
 Copy and paste the code below inside the file
 
 resource "local_file" "tffiles" {
-  filename = ./firstfile.txt
+  filename = "./firstfile.txt"
   content = "This is my first local file in this directory"
   }
 
