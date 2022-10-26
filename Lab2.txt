@@ -6,6 +6,11 @@ Open the  Lab2.txt file in VScode editor and follow instructions to finish the l
 In your terraform directory, create a file called 'first.tf'
 Copy and paste the code below inside the file
 
+resource "local_file" "tffiles" {
+  filename = ./firstfile.txt
+  content = "This is my first local file in this directory"
+  }
+
 On your command line,navigate to the terraform directory and run the command 'terraform init'
 Run 'terraform plan', view the resources that will be created.
 Run 'terraform apply' and enter yes
