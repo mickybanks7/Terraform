@@ -3,12 +3,13 @@ Initialize a git repo called Terraform in your local machine
 CD into this repo and clone https://github.com/awscloudessentials/Terraform.git
 Create a hidden file called gitignore (File names added to this file,keeps the files hidden from anyone viewing your repo,prevents git from tracking the file)
 Create a file "notes.txt" with content "things i do not want to share on github"
+Run git status to view the status of your file and screenshot
 Add the file name into your gitignore file using cat or text editor
 Run command ls -la and send screenshot
 Cat the content of your gitignore file and send screenshot
-Run git status to view the status of your file and screenshot
+Run git status to view the status of your file and screenshot(note that the notes.txt file is not showing for git to track)
 Run command git add. (to add the files to your repo)
 Run command git commit -m "my initial commit"
-Run git status to view the status of your file (note the changes from the previous status and share observation in the group)
+Run git status to view the status of your file (note the changes from the previous status )
 Run git push to your personal remote repo.
 Paste your repo url for verification.

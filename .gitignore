@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 cat .gitignore
+=======
+notes.txt
+*.tfstate
+*.tfstate.backup
+>>>>>>> fbce4a390aa96ee5d9e350e67b562589fa91e7e7
